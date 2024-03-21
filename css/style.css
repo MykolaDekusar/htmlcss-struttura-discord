@@ -17,7 +17,7 @@ header {
 }
 /* CREO RIGA */
 .row {
-    padding: 20px;
+    margin: 20px 0px 20px 0px;
     display: flex;
     width: 100%;
     align-items: center;
@@ -67,7 +67,7 @@ header {
 /* CREO CONTAINER PICCOLO */
 .container-small{
     display: flex;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -85,3 +85,29 @@ header {
 /* FINE PARTE 2 */
 
 /* INIZIO PARTE 3 */
+
+.row-3 {
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+
+.col-60-3 {
+    height: 500px;
+    width: 60%;
+    background-color: rgb(46, 170, 241);
+    border: 2px dashed black;
+}
+
+.col-40 {
+    height: 500px;
+    width: 40%;
+    background-color: pink;
+    border-top: 2px dashed black;
+    border-right: 2px dashed black;;
+    border-bottom: 2px dashed black;;
+}
+
+/* FINE PARTE 3 */
+
+/*  INIZIO PARTE 4 */
