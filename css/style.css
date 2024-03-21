@@ -36,25 +36,7 @@ header {
 }
 /* FINE CREAZIONE COLONNE */
 
-/* CENTRO IL TESTO DENTRO LE COLONNE E LO POSIZIONO */
-.center-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.left-text {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-}
-
-.right-text {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 10px;
-}
 
 /* INIZIO SECONDA PARTE ESERCIZIO */
 
@@ -199,4 +181,24 @@ footer {
 .bottom-b-w {
     border-bottom: 2px dashed white;;
 }
-/*  */
+
+/* TEXT ALLIGNEMENT */
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.right-text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+}
