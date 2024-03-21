@@ -144,41 +144,59 @@ header {
 /* FINE PARTE 7 */
 
 /* INIZIO PARTE 8 */
-/* FINE PARTE 8 */
+footer {
+    border-top: 2px solid white;
+}
 
+.row-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stile-btn{
+    background-color: rgb(222, 91, 113);
+    padding: 5px 10px;
+    border: 2px dashed black;
+}
+/* FINE PARTE 8 */
 
 
 /* UTILITY */
 /* BORDERS */
 .left-b {
-    border-left: 4px dashed black;;
+    border-left: 2px dashed black;;
 }
 
 .right-b {
-    border-right: 4px dashed black;;
+    border-right: 2px dashed black;;
 }
 
 .top-b {
-    border-top: 4px dashed black;
+    border-top: 2px dashed black;
 }
 
 .bottom-b {
-    border-bottom: 4px dashed black;;
+    border-bottom: 2px dashed black;;
 }
 
 .left-b-w {
-    border-left: 4px dashed white;
+    border-left: 2px dashed white;
 }
 
 .right-b-w {
-    border-right: 4px dashed white;;
+    border-right: 2px dashed white;;
 }
 
 .top-b-w {
-    border-top: 4px dashed white;
+    border-top: 2px dashed white;
 }
 
 .bottom-b-w {
-    border-bottom: 4px dashed white;;
+    border-bottom: 2px dashed white;;
 }
 /*  */
