@@ -74,7 +74,7 @@ header {
     margin: 50px 0px
 }
 /* CREO COLONNA INTERNA ALLA RIGA */
-.col-100 {
+.col-100-1 {
     height: 400px;
     background-color: rgb(252, 122, 143);
 }
@@ -107,6 +107,17 @@ header {
 .background-gray {
     background-color: rgba(128, 128, 128, 0.34);
 }
+/* FINE PARTE 4 */
+
+/* INIZIO PARTE 6 */
+.col-100-2 {
+    height: 800px;
+    background-color: rgb(0, 133, 0);
+}
+/* FINE PARTE 6 */
+
+/* INIZIO PARTE 7 */
+/* FINE PARTE 7 */
 
 
 
