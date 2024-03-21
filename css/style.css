@@ -7,16 +7,16 @@
 header {
     background-color: rgb(127, 244, 255);
 }
+
 /* CREO CONTAINER */
 .container {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-    
 }
 /* CREO RIGA */
-.row {
+.row-3 {
     margin: 20px 0px 20px 0px;
     display: flex;
     width: 100%;
@@ -27,15 +27,12 @@ header {
     width: 20%;
     background-color: rgb(255, 225, 0);
     height: 40px;
-    border: 2px dashed black;
 }
 
 .col-60 {
     width: 60%;
     height: 40px;
     background-color: rgb(255, 225, 0);
-    border-top: 2px dashed black;
-    border-bottom: 2px dashed black;
 }
 /* FINE CREAZIONE COLONNE */
 
@@ -61,7 +58,7 @@ header {
 
 /* INIZIO SECONDA PARTE ESERCIZIO */
 
-.background {
+.background-blue {
     background-color: blue;
 }
 /* CREO CONTAINER PICCOLO */
@@ -74,19 +71,18 @@ header {
 /* CREO RIGA INTERNA AL CONTAINER */
 .row-1 {
     width: 100%;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px
 }
 /* CREO COLONNA INTERNA ALLA RIGA */
 .col-100 {
     height: 400px;
-    background-color: pink;
-    border: 2px dashed black;
+    background-color: rgb(252, 122, 143);
 }
 /* FINE PARTE 2 */
 
 /* INIZIO PARTE 3 */
 
-.row-3 {
+.row-2 {
     width: 100%;
     display: flex;
     margin: 50px 0px;
@@ -96,18 +92,39 @@ header {
     height: 500px;
     width: 60%;
     background-color: rgb(46, 170, 241);
-    border: 2px dashed black;
 }
 
 .col-40 {
     height: 500px;
     width: 40%;
     background-color: pink;
-    border-top: 2px dashed black;
-    border-right: 2px dashed black;;
-    border-bottom: 2px dashed black;;
 }
 
 /* FINE PARTE 3 */
 
 /*  INIZIO PARTE 4 */
+
+.background-gray {
+    background-color: rgba(128, 128, 128, 0.34);
+}
+
+
+
+/* UTILITY */
+/* BORDERS */
+.left-b {
+    border-left: 2px dashed black;;
+}
+
+.right-b {
+    border-right: 2px dashed black;;
+}
+
+.top-b {
+    border-top: 2px dashed black;
+}
+
+.bottom-b {
+    border-bottom: 2px dashed black;;
+}
+/*  */
