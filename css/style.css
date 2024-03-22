@@ -10,14 +10,13 @@ header {
 
 /* CREO CONTAINER */
 .container {
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
 }
 /* CREO RIGA */
 .row-3 {
-    margin: 20px 0px 20px 0px;
+    padding: 20px 0px; 
     display: flex;
     width: 100%;
     align-items: center;
@@ -26,35 +25,37 @@ header {
 .col-20 {
     width: 20%;
     background-color: rgb(255, 225, 0);
-    height: 40px;
+    padding: 5px;
 }
 
 .col-60 {
     width: 60%;
-    height: 40px;
     background-color: rgb(255, 225, 0);
+    padding: 5px;
 }
 /* FINE CREAZIONE COLONNE */
 
 
 
 /* INIZIO SECONDA PARTE ESERCIZIO */
-
 .background-blue {
     background-color: blue;
 }
+
 /* CREO CONTAINER PICCOLO */
-.container-small{
+.small-container{
     display: flex;
     max-width: 900px;
     margin: 0 auto;
     justify-content: center;
 }
+
 /* CREO RIGA INTERNA AL CONTAINER */
 .row-1-1 {
     width: 100%;
-    margin: 50px 0px
+    padding: 50px 0px
 }
+
 /* CREO COLONNA INTERNA ALLA RIGA */
 .col-100-1 {
     height: 400px;
@@ -63,35 +64,34 @@ header {
 /* FINE PARTE 2 */
 
 /* INIZIO PARTE 3 */
-
+/* CREO RIGA CON 2 COLONNE INTERNE */
 .row-2 {
     width: 100%;
     display: flex;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
-
+/* COLONNA 60% */
 .col-60-3 {
     height: 600px;
     width: 60%;
     background-color: rgb(46, 170, 241);
 }
-
+/* COLONNA 40% */
 .col-40 {
     height: 600px;
     width: 40%;
     background-color: pink;
 }
-
 /* FINE PARTE 3 */
 
 /*  INIZIO PARTE 4 */
-
 .background-gray {
     background-color: rgba(128, 128, 128, 0.34);
 }
 /* FINE PARTE 4 */
 
 /* INIZIO PARTE 6 */
+/* CREO COLONNA 100% NUMERO 2 */
 .col-100-2 {
     height: 900px;
     background-color: rgb(0, 133, 0);
@@ -102,21 +102,21 @@ header {
 .background-dark {
     background-color: rgba(32, 32, 32, 0.726);
 }
-
+/* CREO RIGA CON 5 COLONNE */
 .row-5 {
     display: flex;
     width: 100%;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
-
+/* 1 COLONNA CHE OCCUPA 2 FLEX GROW (2 VOLTE TANTO RISPETTO LE ALTRE) */
 .col-5-p{
     width: auto;
     flex-grow: 2;
     height: 600px;
     background-color:rgb(222, 91, 113);
 }
-
+/* 4 COLONNE CHE OCCUPANO LO SPAZIO RESTANTE SUDDIVIDENDOLO GRAZIE AL FLEX-GROW 1*/
 .col-5-b{
     width: auto;
     flex-grow: 1;
@@ -126,24 +126,27 @@ header {
 /* FINE PARTE 7 */
 
 /* INIZIO PARTE 8 */
+/* CREO FOOTER */
 footer {
     border-top: 2px solid white;
+    padding-top: 20px;
 }
 
+/* CREO RIGA E LA MODELLO */
 .row-1 {
     display: flex;
     width: 100%;
-    margin-top: 20px;
-    height: 50px;
     background-color: aquamarine;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .stile-btn{
     background-color: rgb(222, 91, 113);
     padding: 5px 10px;
     border: 2px dashed black;
+    
 }
 /* FINE PARTE 8 */
 
@@ -191,14 +194,12 @@ footer {
 }
 
 .left-text {
-    display: flex;
     align-items: center;
     padding-left: 10px;
 }
 
 .right-text {
-    display: flex;
+    text-align: right;
     align-items: center;
-    justify-content: right;
     padding-right: 10px;
 }
