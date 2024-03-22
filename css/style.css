@@ -12,9 +12,8 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: center;
 }
-/* CREO RIGA */
+/* CREO RIGA HEADER*/
 .row-3 {
     padding: 20px 0px; 
     display: flex;
@@ -36,7 +35,6 @@ header {
 /* FINE CREAZIONE COLONNE */
 
 
-
 /* INIZIO SECONDA PARTE ESERCIZIO */
 .background-blue {
     background-color: blue;
@@ -53,7 +51,6 @@ header {
 /* CREO RIGA INTERNA AL CONTAINER */
 .row-1-1 {
     width: 100%;
-    padding: 50px 0px
 }
 
 /* CREO COLONNA INTERNA ALLA RIGA */
@@ -66,9 +63,7 @@ header {
 /* INIZIO PARTE 3 */
 /* CREO RIGA CON 2 COLONNE INTERNE */
 .row-2 {
-    width: 100%;
     display: flex;
-    padding: 50px 0px;
 }
 /* COLONNA 60% */
 .col-60-3 {
@@ -106,19 +101,15 @@ header {
 .row-5 {
     display: flex;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 30px;
 }
 /* 1 COLONNA CHE OCCUPA 2 FLEX GROW (2 VOLTE TANTO RISPETTO LE ALTRE) */
 .col-5-p{
-    width: auto;
     flex-grow: 2;
     height: 600px;
     background-color:rgb(222, 91, 113);
 }
 /* 4 COLONNE CHE OCCUPANO LO SPAZIO RESTANTE SUDDIVIDENDOLO GRAZIE AL FLEX-GROW 1*/
 .col-5-b{
-    width: auto;
     flex-grow: 1;
     height: 600px;
     background-color:rgb(46, 170, 241);
@@ -129,16 +120,13 @@ header {
 /* CREO FOOTER */
 footer {
     border-top: 2px solid white;
-    padding-top: 20px;
 }
 
 /* CREO RIGA E LA MODELLO */
 .row-1 {
     display: flex;
-    width: 100%;
     background-color: aquamarine;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
 }
 
@@ -146,7 +134,6 @@ footer {
     background-color: rgb(222, 91, 113);
     padding: 5px 10px;
     border: 2px dashed black;
-    
 }
 /* FINE PARTE 8 */
 
@@ -186,7 +173,6 @@ footer {
 }
 
 /* TEXT ALLIGNEMENT */
-
 .center-text {
     display: flex;
     justify-content: center;
@@ -202,4 +188,18 @@ footer {
     text-align: right;
     align-items: center;
     padding-right: 10px;
+}
+
+/* PADDING TOP AND BOTTOM 50PX */
+.py-50 {
+    padding: 50px 0;
+}
+/* PADDING TOP AND BOTTOM 15 / 30PX */
+.py-15-30{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+/* PADDING TOP 30PX */
+.py-30-t {
+    padding-top: 30px;
 }
